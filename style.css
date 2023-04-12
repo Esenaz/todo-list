@@ -1,0 +1,116 @@
+/* body {
+    background-color: #d7d7d7;
+}
+.container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    font-family: 'Verdana';
+    font-size: 28px;
+    color: white;
+    margin-top: 29px;
+    width: 255px;
+    height: 71px;
+    background-color: #6A84C7;
+    border: none;
+}
+button:hover {
+    background-color: #54C96D;
+}
+.loader {
+    font-size: 50px;
+    font-family: 'Verdana';
+    position: absolute;
+    left: 400px;
+    top: 500px;
+}
+.error {
+    font-size: 50px;
+    color: red;
+    font-family: 'Verdana';
+    position: absolute;
+    left: 400px;
+    top: 500px;
+} */
+
+body {
+    font-family: 'Verdana';
+    margin: 0;
+    background-color: #D7D7D7;
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .users {
+    width: 30%;
+  }
+  
+  .user-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .user-list li {
+    margin: 10px 0;
+  }
+  
+  .user-list li button {
+    background-color:#6A84C7;
+    width: 255px;
+    height: 70px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Verdana';
+    font-size: 28px;
+  }
+  .user-list li button:hover {
+    background-color: #54C96D;
+  }
+
+  .todos {
+    width: 815px;
+    background-color: white;
+    padding-left: 50px;
+  }
+  
+  .todo-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .todo-list li.completed {
+    text-decoration: line-through;
+  }
+.error {
+  font-size: 40px;
+  color: red;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.loader {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.errorSmall {
+  color: red;
+  margin-top: 30px;
+
+}
